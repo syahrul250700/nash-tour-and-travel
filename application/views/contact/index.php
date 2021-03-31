@@ -9,7 +9,6 @@
       </div>
 
   
-    <?php echo $this->session->flashdata('msg');?>
       <div class="row">
         <div class="col-sm-6">
           <h3>Contact Info.</h3>
@@ -23,7 +22,7 @@
       
 
       <div class="col-sm-6">
-          <form action="<?= base_url().'contact/send' ?>" method="post">
+          <form action="" method="">
             <div class="form-group">
               <label for="nama">Nama</label>
               <input type="text" id="nama" name="nama" class="form-control" placeholder="masukkan nama">
