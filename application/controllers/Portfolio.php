@@ -9,7 +9,7 @@ class Portfolio extends CI_Controller
 		
 		
 		$this->load->view('templates/header', $data);
-		$this->load->view('portfolio/index', $data);
+		$this->load->view('pilihpaket/index', $data);
 		$this->load->view('templates/footer');
 	}
 }
