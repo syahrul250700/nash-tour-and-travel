@@ -11,9 +11,9 @@
     <!-- Animation -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
     <!-- My CSS -->
-    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/style.css">
+    <link rel="stylesheet" href="<?= base_url().'assets/css/style.css'?>">
     <!-- My Font Awesome -->
-    <link rel="stylesheet" href="<../assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?= base_url().'/assets/font-awesome-4.7.0/css/font-awesome.min.css'?>">
     <link rel="shortcut icon" href="<?php echo base_url().'assets/img/fossdev.jpg'?>" />
 
     <title><?php echo $judul; ?></title>
