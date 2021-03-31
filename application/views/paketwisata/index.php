@@ -10,7 +10,7 @@
 <div class="card-deck text-center ">
 	
   <div class="card col-sm-4">
-    <img src="<?= base_url(); ?>/assets/img/lucas.jpg ?>" class="card-img-top" alt="...">
+    <img src="<?= base_url().'/assets/img/lucas.jpg'?>" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Paket Tour London Inggris</h5>
       <p class="card-text"><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
