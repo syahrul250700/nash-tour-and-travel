@@ -13,10 +13,6 @@ class Paketwisata extends CI_Controller
 	{
 		
 		$data['judul'] = 'Wisata';
-		$data['Paketwisata'] = $this->Team_model->getAllTeam();
-		if( $this->input->post('keyword') ){
-			$data['Paketwisata'] = $this->Team_model->cariDataTeam();
-		}
 		$this->load->view('templates/header', $data);
 		$this->load->view('paketwisata/index', $data);
 		$this->load->view('templates/footer');
