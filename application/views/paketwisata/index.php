@@ -10,7 +10,7 @@
 <div class="card-deck text-center ">
 	
   <div class="card col-sm-4">
-    <img src="<?= base_url()?>/assets/img/lucas.jpg" class="card-img-top" alt="...">
+    <img src="<?= base_url() ;?>/assets/img/lucas.jpg" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Paket Tour London Inggris</h5>
       <p class="card-text"><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -22,7 +22,7 @@
     </div>
   </div>
   <div class="card">
-    <img src="<?= base_url(); ?>/assets/img/kyoto.jpg ?>"class="card-img-top" alt="...">
+    <img src="<?= base_url(); ?>/assets/img/kyoto.jpg"class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Paket Tour Kyoto Jepang</h5>
       <p class="card-text"><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -34,7 +34,7 @@
     </div>
   </div>
   <div class="card">
-    <img src="<?= base_url(); ?>/assets/img/maldi.jpg ?>" height="180"class="card-img-top" alt="...">
+    <img src="<?= base_url(); ?>/assets/img/maldi.jpg" height="180"class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Paket Tour Maldives</h5>
       <p class="card-text"><small> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -46,7 +46,7 @@
     </div>
   </div>
   <div class="card">
-    <img src="<?= base_url(); ?>/assets/img/bali.jpg ?>"class="card-img-top" alt="...">
+    <img src="<?= base_url(); ?>/assets/img/bali.jpg"class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Paket Tour Bali Indonesia</h5>
       <p class="card-text"><small> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -58,7 +58,7 @@
     </div>
   </div>
   <div class="card">
-    <img src="<?= base_url(); ?>/assets/img/paris.jpg ?>"class="card-img-top" alt="...">
+    <img src="<?= base_url(); ?>/assets/img/paris.jpg"class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Paket Tour Paris Prancis</h5>
       <p class="card-text"><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
