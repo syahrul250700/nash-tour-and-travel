@@ -22,33 +22,33 @@ class Paketwisata extends CI_Controller
 		$this->load->view('templates/footer');
 
 	}
-	public function tambah()
-	{
-		$data['judul'] = 'Form Tambah Data Team';
+// 	public function tambah()
+// 	{
+// 		$data['judul'] = 'Form Tambah Data Team';
 
-		$this->form_validation->set_rules('nama', 'Nama', 'required');
-		$this->form_validation->set_rules('jumlah_anggota', 'Jumlah Anggota', 'required|numeric');
-		$this->form_validation->set_rules('ketua', 'Ketua', 'required');
-		$this->form_validation->set_rules('gambar', 'Gambar', 'required');
+// 		$this->form_validation->set_rules('nama', 'Nama', 'required');
+// 		$this->form_validation->set_rules('jumlah_anggota', 'Jumlah Anggota', 'required|numeric');
+// 		$this->form_validation->set_rules('ketua', 'Ketua', 'required');
+// 		$this->form_validation->set_rules('gambar', 'Gambar', 'required');
 
 
-		if ($this->form_validation->run() == FALSE) {
-				$this->load->view('templates/header', $data);
-				$this->load->view('team/tambah');
-				$this->load->view('templates/footer');
-		}else{
-			$this->Team_model->tambahDataTeam();
-			$this->session->set_flashdata('flash', 'ditambahkan');
-			redirect('team');
-		}
+// 		if ($this->form_validation->run() == FALSE) {
+// 				$this->load->view('templates/header', $data);
+// 				$this->load->view('team/tambah');
+// 				$this->load->view('templates/footer');
+// 		}else{
+// 			$this->Team_model->tambahDataTeam();
+// 			$this->session->set_flashdata('flash', 'ditambahkan');
+// 			redirect('team');
+// 		}
 		
-	}
-	public function hapus($id)
-	{
-		$this->Team_model->hapusDataTeam($id);
-		$this->session->set_flashdata('flash', 'dihapus');
-		redirect('team');
-	}
+// 	}
+// 	public function hapus($id)
+// 	{
+// 		$this->Team_model->hapusDataTeam($id);
+// 		$this->session->set_flashdata('flash', 'dihapus');
+// 		redirect('team');
+// 	}
 	public function detail($id)
 	{
 		$data['judul'] = 'Detail Data Team';
