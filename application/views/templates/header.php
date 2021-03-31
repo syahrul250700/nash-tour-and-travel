@@ -23,7 +23,7 @@
 
 	  	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
 	 	<div class="container col-xs-12">
-	 		 <a class="navbar-brand" href="<?= base_url(); ?>">SAH | Tour and Travel</a>
+	 		 <a class="navbar-brand" href="">SAH | Tour and Travel</a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
 			  </button>
@@ -36,19 +36,19 @@
 			        </li>
 
 			        <li class="nav-item active">
-			        <a class="nav-link" href="<?= base_url(); ?>about">About <span class="sr-only">(current)</span></a>
+			        <a class="nav-link" href="about">About <span class="sr-only">(current)</span></a>
 			        </li>
 
 			        <li class="nav-item active">
-			        <a class="nav-link" href="<?= base_url(); ?>paketwisata">Wisata <span class="sr-only">(current)</span></a>
+			        <a class="nav-link" href="paketwisata">Wisata <span class="sr-only">(current)</span></a>
 			        </li>
 
 			        <li class="nav-item active">
-			        <a class="nav-link" href="<?= base_url(); ?>portfolio">Paket Wisata <span class="sr-only">(current)</span></a>
+			        <a class="nav-link" href="portfolio">Paket Wisata <span class="sr-only">(current)</span></a>
 			        </li>
 
 			        <li class="nav-item active">
-			        <a class="nav-link" href="<?= base_url(); ?>contact">Contact <span class="sr-only">(current)</span></a>
+			        <a class="nav-link" href="contact">Contact <span class="sr-only">(current)</span></a>
 			        </li>
 			    </ul>
 			  </div>
