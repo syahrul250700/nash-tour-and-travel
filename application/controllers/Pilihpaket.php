@@ -1,6 +1,6 @@
 <?php
 
-class Portfolio extends CI_Controller
+class Pilihpaket extends CI_Controller
 {
 	public function index()
 	{
