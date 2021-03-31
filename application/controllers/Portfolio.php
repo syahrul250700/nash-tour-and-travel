@@ -4,7 +4,7 @@ class Portfolio extends CI_Controller
 {
 	public function index()
 	{
-		$data['judul'] = 'Halaman Portfolio';
+		$data['judul'] = 'Pilih Paket yang Diinginkan';
 
 		
 		
