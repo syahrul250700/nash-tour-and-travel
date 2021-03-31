@@ -2,7 +2,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12 text-center">
-          <h2>Portfolio</h2>
+          <h2>Pilih Paket Wisata</h2>
           <hr>
         </div>
       </div>
