@@ -44,7 +44,7 @@
 			        </li>
 
 			        <li class="nav-item active">
-			        <a class="nav-link" href="portfolio">Paket Wisata <span class="sr-only">(current)</span></a>
+			        <a class="nav-link" href="pilihpaket">Paket Wisata <span class="sr-only">(current)</span></a>
 			        </li>
 
 			        <li class="nav-item active">
