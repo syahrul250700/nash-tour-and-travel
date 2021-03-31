@@ -7,7 +7,7 @@ class Contact extends CI_Controller
 	{
 		$data['judul'] = 'Contact';
 
-		$data['Contact'] = $this->db->get('contact')->result_array();
+		
 		
 		$this->load->view('templates/header', $data);
 		$this->load->view('contact/index', $data);
